@@ -21,10 +21,8 @@
 
 
     /* tamnho da fonts padrão 16px - 100% - 4rem */
-
-
-    font-size: 60%;
-    /* controle das medidas rem */
+    font-size: 60%
+        /* controle das medidas rem */
 }
 
 
@@ -38,31 +36,29 @@
 html,
 body {
 
-    height: 100vh;     /* height = altura */
+    height: 100vh;
+    /* height = altura */
 }
 
 body {
-    height: 100vh;
-    background-color: var(--color-background);
+
+    background: var(--color-background);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
 }
 
 body,
 input,
 button,
 textarea {
+    /* font: 500 1.6rem Poppins; */
     font: 500 1.6rem Poppins;
     color: var(--color-text-base);
 }
 
-.container{
-    width: 90vw;        /* width = largura */
-    max-width: 700px; 
-    
+.container {
+    width: 90vw;  /* width = largura */
+    max-width: 700px;
+
 }
-
-
-
